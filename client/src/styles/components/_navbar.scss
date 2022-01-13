@@ -1,0 +1,36 @@
+.nav-container {
+    width: 100vw;
+    height: 10vh;
+    //background-color: #474747;
+    background: #fffbd5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #b20a2c, #fffbd5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #b20a2c, #fffbd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+    justify-content: space-between;
+    
+    .logo, .context-nav {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 4vw;
+
+        a {
+            margin: 0 10px;
+        }
+    }
+    
+    h1 {
+        color: #b20a2c
+    }
+    h4 {
+        color: $white;
+    }
+
+    img {
+        max-height: 100%;
+        width: auto;
+        margin: 0 2vw 0 0;
+    }
+}
